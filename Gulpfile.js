@@ -4,15 +4,12 @@ const exec        = require('gulp-exec')
 const File        = require('fs')
 const gulp        = require('gulp')
 const gutil       = require('gulp-util')
-const sourcemaps  = require('gulp-sourcemaps')
 const babel       = require('gulp-babel')
 
 gulp.task('build', ['clean'], function() {
   return gulp
     .src(['src/**/*.jsx', 'src/**/*.js', '!src/**/__tests__/*'])
-    .pipe(sourcemaps.init())
     .pipe(babel())
-    .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('lib'))
 })
 

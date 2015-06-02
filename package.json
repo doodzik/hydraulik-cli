@@ -1,6 +1,6 @@
 {
   "name": "hydraulik-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "lib/hydraulik.js",
   "scripts": {
@@ -33,7 +33,6 @@
     "gulp": "^3.8.11",
     "gulp-babel": "^5.1.0",
     "gulp-exec": "^2.1.1",
-    "gulp-sourcemaps": "^1.5.2",
     "gulp-util": "^3.0.4",
     "jest-cli": "^0.4.5",
     "jshint": "^2.7.0"
