@@ -19,7 +19,7 @@ const content = `
 
 module.exports = function (name) {
   return {
-    target: 'client.js',
+    target: 'client.jsx',
     content: content
   }
 }

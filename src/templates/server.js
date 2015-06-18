@@ -25,7 +25,7 @@ app.listen(port)
 
 module.exports = function (name) {
   return {
-    target: 'server',
+    target: 'server.js',
     content: content
   }
 }

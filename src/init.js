@@ -70,6 +70,7 @@ module.exports = function(yargs) {
     console.error(err)
   })
   .done(function() {
-    console.log('Now Run: nvm install && nvm use && npm install')
+    console.log('Now Run: nvm install && npm install')
+    console.log("TODO exec: git init && git add --all && git commit -m 'init hydraulik'")
   })
 }

@@ -15,7 +15,7 @@ module.exports = {
 
 module.exports = function (name) {
   return {
-    target: 'preprocessor',
+    target: 'preprocessor.js',
     content: content
   }
 }
